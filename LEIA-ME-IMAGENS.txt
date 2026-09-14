@@ -1,0 +1,38 @@
+IMAGENS REAIS UTILIZADAS NO REDESIGN
+======================================
+
+Este ambiente de desenvolvimento não tem acesso de rede ao domínio
+thiagoviglioni.adv.br, portanto não foi possível baixar e re-hospedar
+os arquivos de imagem originais dentro desta pasta. Nenhuma imagem foi
+inventada: o site aponta diretamente para os arquivos REAIS já publicados
+no site atual, então tudo funciona normalmente ao abrir o index.html.
+
+Para deixar o projeto 100% local (recomendado antes de publicar), baixe
+estes 2 arquivos reais e salve-os nesta mesma pasta com os nomes abaixo,
+depois ajuste o "src" correspondente no index.html:
+
+1) Foto do Dr. Thiago Viglioni
+   Origem:  https://thiagoviglioni.adv.br/wp-content/uploads/2025/06/thiago-viglioni.webp
+   Salvar como:  thiago-viglioni.jpg  (usada no Hero e na seção "Sobre")
+
+2) Favicon
+   Origem:  https://thiagoviglioni.adv.br/wp-content/uploads/2022/08/cropped-favicon-thiago-viglioni-270x270.png
+   Salvar como:  favicon.ico  (ou manter .png e ajustar o <link rel="icon">)
+
+SOBRE O LOGOTIPO
+------------------
+O arquivo de logo original ("logo-thiago-viglioni-fundo-branco.jpg") tem
+fundo branco sólido, incompatível com o novo header em navy escuro.
+Por isso, o header e o rodapé usam um logotipo tipográfico próprio
+("Thiago Viglioni" + "Advocacia Criminal"), criado com as mesmas fontes
+do sistema visual — preservando o nome real, sem inventar identidade.
+Se a Agência GerAção ou o cliente possuir uma versão vetorial do logo
+com fundo transparente, ela pode substituir esse wordmark facilmente
+(classe .brand no HTML / .brand-name e .brand-tag no CSS).
+
+ÍCONES DAS ÁREAS DE ATUAÇÃO
+------------------------------
+Os ícones originais (clip-art genérico) foram substituídos por ícones
+de linha desenhados especificamente para este projeto (SVG inline, sem
+dependência externa), mantendo o mesmo conjunto real de 8 áreas de
+atuação informadas no site original.
